@@ -1,3 +1,4 @@
+```
 kent@kent-VirtualBox-UbuntuLab:~/lab/lab2$ wc -l auth-sample2.log 
 27 auth-sample2.log
 kent@kent-VirtualBox-UbuntuLab:~/lab/lab2$ grep -i "failed password" auth-sample2.log | wc -l
@@ -35,3 +36,4 @@ kent@kent-VirtualBox-UbuntuLab:~/lab/lab2$ head -n1 auth-sample2.log
 Oct 20 10:02:11 ubuntu sshd[3101]: Failed password for invalid user admin from 203.0.113.45 port 51231 ssh2
 kent@kent-VirtualBox-UbuntuLab:~/lab/lab2$ tail -n1 auth-sample2.log 
 Oct 20 10:32:44 ubuntu sshd[3401]: Connection closed by 198.51.100.23 port 44610 [preauth]
+```
